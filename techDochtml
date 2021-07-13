@@ -2,22 +2,40 @@
 <html>
 <main id="main-doc">
 <header id="header" class="main-section">
-  Blah
+  Powerbuilding
   </header>
   
+  <nav id="navbar">
+    <a href="#Introduction">Introduction</a>
+    <a href="#Squat">Squat</a>
+    <a href="#Bench">Bench</a>
+    <a href="#Deadlift">Deadlift</a>
+    <a href="#OHP">Overhead Press</a>
+  </nav>
   
   
   
+ 
   <body id="body">
-    <h1>Squat</h1>
+    <article>
+    <h1 id="Intro">Introduction to Powerbuilding</h1>
+    <p>Powerbuilding, a relatively new and trendy buzzword in strength training, is continuing to grow in popularity due to the principles that most powerbuilding programs aim to accomplish: (1) get stronger, with periodized compound movements and (2) look better, with specific and curated accessories. 
+
+Powerbuilding programs blend foundational concepts taken from powerlifting and bodybuilding styles of training. This means athletes simultaneously improve their strength through the use of the squat, bench press, deadlift, and overhead press, while also focusing on their body composition with accessories catered to the aesthetics of specific areas on the body.
+<br>
+Powerbuilding is the combination of powerlifting and bodybuilding styles in one training program. A powerbuilding program will include both high intensity, low rep work for strength, which is used in powerlifting programs, along with low intensity, high rep work for body composition, which is similar to traditional bodybuilding training. 
+<br>
+The concept of powerbuilding is by no means new, as this style of training has been popular for quite some time across every strength circle. However, powerbuilding style programs are continuing to grow in popularity for two big reasons. 
+    </article>
+      
+      <ul>
+    <li id="Squat">Squat</li>
     
-    <h2>Bench</h2>
+    <li id="Bench">Bench</li>
     
-    <h3>Deadlift</h3>
+    <li id="Deadlift">Deadlift</li>
     
-    <h4>Overhead Press</h4>
-    
-    <h5>Pull up</h5>
+    <li id="OHP">Overhead Press</li>
     
   </body>
 
