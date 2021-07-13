@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <main id="main-doc">
 <header id="header" class="main-section">
   Blah
@@ -28,3 +30,4 @@
 
 
 </main>
+</html>
