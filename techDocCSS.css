@@ -6,11 +6,11 @@
 
 }
 #header {
-  font-size: 250%;
+  font-size: 200%;
   font-weight: bold;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 1;
+  left: 1;
 }
 #navbar {
     background-color: lightblue;
@@ -33,18 +33,24 @@
     #navbar {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
     }
   }
   #doc-header {
     font-size: 200%;
   }
 
-  #main-doc {
-    background-color: pink;
+  .rightside {
     position: absolute;
-    right: 30px;
-    width: 80%;
+    margin-left: 240px;
+    padding: 20px;
+    margin-bottom: 110px;
+    border-left: 1px black solid;
   }
   .nav-link {
       border: 1px black solid;
+  }
+  .bold {
+    font-size: 1.5em;
+    font-weight: bolder;
   }
