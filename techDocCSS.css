@@ -1,39 +1,48 @@
 #leftside {
   position: fixed;
+  height: 100%;
+  left: 0;
+  top: 6%;
+
 }
 #header {
   font-size: 250%;
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 #navbar {
-  margin-left: 0;
-  padding: 20%;
-  height: 100%;
-  width: 50%;
-  background-color: #f1f1f1;
-}
-a {
-  text-decoration: none;
-  display: block;
-  font-size: 150%;
-}
-a:hover {
-  background-color: #555;
-  color: white;
-}
-#body {
-  height: 200vh;
-  width: 50%;
-}
-ul {
-  list-style: none;
-}
-#info {
-  width: 80%;
-  position: absolute;
-  right: 40px;
-}
-li {
-  font-size: 2em;
-  font-weight: bold;
-}
+    background-color: lightblue;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+  }
+  #navbar a {
+      text-align: center;
+      text-decoration: none;
+      font-size: 120%;
+  }  
+  a:hover {
+    background-color: #555;
+    color: white;
+  } 
+  @media (max-width: 320px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #doc-header {
+    font-size: 200%;
+  }
+
+  #main-doc {
+    background-color: pink;
+    position: absolute;
+    right: 30px;
+    width: 80%;
+  }
+  
