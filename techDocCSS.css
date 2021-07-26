@@ -45,4 +45,6 @@
     right: 30px;
     width: 80%;
   }
-  
+  .nav-link {
+      border: 1px black solid;
+  }
