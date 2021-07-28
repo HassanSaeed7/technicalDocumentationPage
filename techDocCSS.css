@@ -18,7 +18,8 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 15%;
+    margin-right: auto;    
+    margin-left: auto;   
   }
   #navbar a {
       text-align: center;
@@ -34,7 +35,7 @@
     #navbar {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+
     }
   }
   #doc-header {
@@ -44,7 +45,7 @@
 
   #main-doc {
     position: absolute;
-    margin-left: 240px;
+    margin-left: 200px;
     padding: 20px;
     margin-bottom: 110px;
     border-left: 1px black solid;
